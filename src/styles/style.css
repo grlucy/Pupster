@@ -1,0 +1,33 @@
+.jumbotron {
+  background-image: url("https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: calc(30px + 9vw) 0;
+}
+
+h1 {
+  font-size: calc(60px + 3vw);
+}
+
+footer {
+  margin-top: 50px;
+  padding: 30px 0;
+  background-color: #bbb;
+}
+
+.doggoIMG {
+  width: 100%;
+  max-width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.friendCount {
+  font-size: 60px;
+}
+
+#thumbs-up-div,
+#thumbs-down-div {
+  cursor: pointer;
+}
